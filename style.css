@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 .first_last_background{
     display: flex;
@@ -14,69 +15,93 @@
     color: aliceblue;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .other_background1{
     display: flex;
     width: 100vw;
-    height: 80vh;
-    background-image: url(./img/bg1.jpg);
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.other_background2{
-    display: flex;
-    width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url(./img/bg2.jpg);
     align-items: center;
     justify-content: center;
     color: aliceblue;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-.other_background3{
+.other_background2{
     display: flex;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-image: url(./img/bg3.jpg);
     align-items: center;
     justify-content: center;
     color: aliceblue;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+.other_background3{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/bg4.jpg);
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .f_l_span{
     background-color: black;
-    padding: 1.5rem;
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    outline-offset: 1rem;
+    padding: 1.8vw;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    outline-offset: 0.7vw;
     outline: 0.5rem purple solid;
 
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
 img{
-    height: 30%;
+    width: 27vw;
 }
 .content_section1{
-    height: 20vh;
     width: 100vw;
-    background-color: lightgray;
+    background-color: rgb(245, 241, 241);
     text-align: center;
-    padding: 2.5rem;
+    padding: 2rem;
 }
 .content_section2{
-    height: 20vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     text-align: center;
     padding: 2.5rem;
     color: wheat;
 }
 h2{
     margin-bottom: 2rem;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.other_background1,.other_background2,.other_background3,.first_last_background{
+    opacity: 0.7;
+}
+.o_span{
+    background-color: black;
+    padding: 2.3vw;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    outline-offset: 0.7vw;
+    outline: 0.5rem purple solid;
+
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
